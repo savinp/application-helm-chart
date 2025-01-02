@@ -5,10 +5,16 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: "myrepo/shared-helm"
+  tag: "latest"
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+
+
+#image:
+#  repository: nginx
+#  pullPolicy: IfNotPresent
+#  # Overrides the image tag whose default is the chart appVersion.
+#  tag: ""
 
 nameOverride: ""
 fullnameOverride: ""
