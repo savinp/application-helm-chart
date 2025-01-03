@@ -25,5 +25,4 @@ appVersion: "1.16.0"
 dependencies:
   - name: shared-helm
     version: "1.0.0"
-    enables: true
     repository: https://github.com/savinp/shared-helm-chart/raw/main
