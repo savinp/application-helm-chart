@@ -1,1 +1,1 @@
-{{- include "shared-helm.deployment" . }}
+{{- include "shared-helm-chart.deployment" . }}
